@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <title>Interpass - Ingressos para Evento</title>
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      width: 100%;
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .btn-bd-primary {
+      --bd-violet-bg: #712cf9;
+      --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+      --bs-btn-font-weight: 600;
+      --bs-btn-color: var(--bs-white);
+      --bs-btn-bg: var(--bd-violet-bg);
+      --bs-btn-border-color: var(--bd-violet-bg);
+      --bs-btn-hover-color: var(--bs-white);
+      --bs-btn-hover-bg: #6528e0;
+      --bs-btn-hover-border-color: #6528e0;
+      --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+      --bs-btn-active-color: var(--bs-btn-hover-color);
+      --bs-btn-active-bg: #5a23c8;
+      --bs-btn-active-border-color: #5a23c8;
+    }
+
+    .bd-mode-toggle {
+      z-index: 1500;
+    }
+
+    .bd-mode-toggle .dropdown-menu .active .bi {
+      display: block !important;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- NAVBAR - CABEÇALHO -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark.bg-gradient">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="/Home1.png" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 text-end">
+          <a href="cadastro.html"><button class="btn btn-warning me-2 fw-bold">Cadastre-se</button></a>
+          <a href="login.html"><button class="btn btn-primary fw-bold">Entrar</button></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <div class="b-example-divider"></div>
+    
+    <div class="bg-transparent text-black px-4 py-5 text-center">
+      <div class="py-5">
+        <h1 class="display-5 fw-bold text-black">Sobre a INTERPASS</h1>
+        <br>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4">A Interpass surgiu como uma ideia audaciosa no porão de um apartamento, onde três amigos, Arthur, Leonardo e Jeferson, compartilhavam sua paixão por eventos ao vivo. Com determinação, eles desenvolveram uma plataforma inovadora que tornava a compra de ingressos online mais fácil do que nunca. Hoje, a Interpass é uma potência global, conectando milhões de pessoas a experiências emocionantes em todo o mundo. Seu nome é sinônimo de acesso rápido e conveniente à diversão, tornando a história da Interpass uma inspiração para empreendedores em todos os lugares.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">Informações: </h2>
+
+        <ul class="nav__ul">
+          <li>
+            <a href="sobre.html">Sobre a Interpass</a>
+          </li>
+
+          <li>
+            <a href="termos.html">Termos de Serviço</a>
+          </li>
+
+          <li>
+            <a href="politicas.html">Políticas de Privacidade</a>
+          </li>
+
+          <li>
+            <a href="meia.html">Lei da Meia-Entrada</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav__item">
+        <h2 class="nav__title"></h2>
+
+        <ul class="nav__ul">
+          <li>
+            <a href="#"></a>
+          </li>
+
+          <li>
+            <a href="#"></a>
+          </li>
+
+          <li>
+            <a href="#"></a>
+          </li>
+
+          <li>
+            <a href="#"></a>
+          </li>
+
+          <li>
+            <a href="#"></a>
+          </li>
+
+          <li>
+            <a href="#"></a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav__item">
+        <h2 class="nav__title">INTERPASS - Ingressos Digitais para Eventos</h2>
+
+        <ul class="nav__ul">
+          <li>
+            <a href="">CNPJ: 12345678/0001-00</a>
+          </li>
+
+          <li>
+            <a href="">Dr. Jorge Xavier, Centro</a>
+          </li>
+
+          <li>
+            <a href="">CEP 12345-678, Castro - PR</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="legal">
+      <p>&copy; 2023 - Interpass</p>
+
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
